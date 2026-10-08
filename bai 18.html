@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Cá Nhân - Thiết Kế Hiện Đại</title>
+    <link rel="stylesheet" href="bai 18.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Background Orbs (Hiệu ứng đốm sáng dạ quang) -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <!-- Header / Navbar -->
+    <header class="navbar">
+        <div class="logo">
+            <span class="gradient-text">Portfolio</span>.
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">Giới thiệu</a></li>
+                <li><a href="#skills">Kỹ năng</a></li>
+                <li><a href="#projects">Dự án</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
+            </ul>
+        </nav>
+        <div class="theme-toggle" id="theme-toggle">
+            <i class="fa-solid fa-moon"></i>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <span class="badge">🔥 Sẵn sàng cho công việc mới</span>
+            <h1>Xin chào, tôi là <br><span class="gradient-text">Phạm Đình Khương</span></h1>
+            <p class="subtitle">Full-Stack Developer & UI/UX Designer tạo nên những trải nghiệm số ấn tượng.</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn btn-primary">Xem Dự Án <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#contact" class="btn btn-glass">Liên Hệ</a>
+            </div>
+        </div>
+        <div class="hero-avatar">
+            <div class="avatar-wrapper">
+                <img src="https://scontent.fsgn5-15.fna.fbcdn.net/v/t39.30808-1/583923053_1187032030036283_6643598896699324605_n.jpg?stp=dst-jpg_tt6&cstp=mx1004x996&ctp=s200x200&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeFiUikvP1fdr5PggpoO1hPYRrkc0-TxxBNGuRzT5PHEE7eh3LUguVkGV7I85qBSnXRNsjCUEjH11-tD_x7xtwEp&_nc_ohc=zx-AFLCKPgMQ7kNvwHMmHF3&_nc_oc=Adpy_uUj0edHzUJmQ5HK7UjEySlUzYHRzF8z3zc7Hsut8bOJolv9udAGOYepyy_HWiIdzSPt3DZOqvS686bOQP1x&_nc_zt=24&_nc_ht=scontent.fsgn5-15.fna&_nc_gid=JF7pNMOyD-1uWYFIZhBr_Q&_nc_ss=7b2a8&oh=00_AQO_327smjGAeMbdkisBFRkcdJfNDTX-FYgeSJeFLZXj5A&oe=6ACD5234" alt="Avatar">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section reveal">
+        <h2 class="section-title">Về <span class="gradient-text">Tôi</span></h2>
+        <div class="about-card glass-card">
+            <p>
+                Tôi có hơn 3 năm kinh nghiệm trong lĩnh vực phát triển web và thiết kế giao diện. Đam mê của tôi là biến những ý tưởng phức tạp thành sản phẩm đơn giản, tối ưu và mang lại giá trị cao nhất cho người dùng.
+            </p>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3>15+</h3>
+                    <p>Dự án hoàn thành</p>
+                </div>
+                <div class="stat-item">
+                    <h3>99%</h3>
+                    <p>Khách hàng hài lòng</p>
+                </div>
+                <div class="stat-item">
+                    <h3>3+</h3>
+                    <p>Năm kinh nghiệm</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section reveal">
+        <h2 class="section-title">Kỹ Năng <span class="gradient-text">Chuyên Môn</span></h2>
+        <div class="skills-grid">
+            <div class="skill-card glass-card">
+                <i class="fa-brands fa-html5 skill-icon"></i>
+                <h3>HTML5 / CSS3</h3>
+                <p>Xây dựng giao diện chuẩn SEO, chuẩn Responsive.</p>
+            </div>
+            <div class="skill-card glass-card">
+                <i class="fa-brands fa-js skill-icon"></i>
+                <h3>JavaScript ES6+</h3>
+                <p>Xử lý logic mượt mà, tối ưu hiệu năng trang web.</p>
+            </div>
+            <div class="skill-card glass-card">
+                <i class="fa-brands fa-react skill-icon"></i>
+                <h3>React / Next.js</h3>
+                <p>Phát triển Web App hiện đại, kiến trúc component.</p>
+            </div>
+            <div class="skill-card glass-card">
+                <i class="fa-brands fa-figma skill-icon"></i>
+                <h3>UI/UX Design</h3>
+                <p>Thiết kế Wireframe, Prototype chuẩn Figma.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section reveal">
+        <h2 class="section-title">Dự Án <span class="gradient-text">Nổi Bật</span></h2>
+        <div class="projects-grid">
+            <div class="project-card glass-card">
+                <div class="project-img">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80" alt="Dashboard">
+                </div>
+                <div class="project-info">
+                    <h3>SaaS Analytics Dashboard</h3>
+                    <p>Hệ thống quản lý dữ liệu thông minh hỗ trợ phân tích thời gian thực.</p>
+                    <div class="tags">
+                        <span>React</span>
+                        <span>ChartJS</span>
+                        <span>Tailwind</span>
+                    </div>
+                    <a href="#" class="project-link">Xem Trực Tiếp <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="project-card glass-card">
+                <div class="project-img">
+                    <img src="https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?auto=format&fit=crop&w=800&q=80" alt="E-commerce">
+                </div>
+                <div class="project-info">
+                    <h3>E-Commerce Platform</h3>
+                    <p>Trang thương mại điện tử mượt mà tích hợp thanh toán tự động.</p>
+                    <div class="tags">
+                        <span>JavaScript</span>
+                        <span>NodeJS</span>
+                        <span>MongoDB</span>
+                    </div>
+                    <a href="#" class="project-link">Xem Trực Tiếp <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section reveal">
+        <h2 class="section-title">Kết Nối <span class="gradient-text">Với Tôi</span></h2>
+        <div class="contact-box glass-card">
+            <form id="contact-form">
+                <div class="input-group">
+                    <input type="text" id="name" placeholder="Họ và tên của bạn" required>
+                </div>
+                <div class="input-group">
+                    <input type="email" id="email" placeholder="Địa chỉ Email" required>
+                </div>
+                <div class="input-group">
+                    <textarea id="message" rows="5" placeholder="Viết lời nhắn ở đây..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-full">Gửi Lời Nhắn <i class="fa-solid fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Designed & Built by <span class="gradient-text">Phạm Đình Khương</span></p>
+    </footer>
+
+    <script src="bai 18.js"></script>
+</body>
+</html>
